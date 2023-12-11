@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nuveus</title>
 <link rel="stylesheet" href="interfaz.css">
 </head>
@@ -9,7 +10,7 @@
 
 <header>
     <video playsinline autoplay muted loop>
-      <source src="videos/fondo.mp4" type="video/mp4">
+      <source src="fondo.mp4" type="video/mp4">
     </video>
 </header>
 
@@ -24,7 +25,7 @@
 <main>
 
   <aside>
-    <img src="img/Logo.png" alt="image">
+    <img src="Logo.png" alt="image">
     <p></p>
     <h3>Quienes Somos</h3>
     <p>Fundada en 2023, Nuveus es la empresa líder en soluciones de infraestructura en la nube en América Latina. Nuestro equipo multidisciplinario cuenta con las mejores mentes en tecnología, con más de 20 años de experienciaconjunta diseñando e implementando soluciones robustas y creativas en la nube.</p>
@@ -50,39 +51,39 @@
     <div class="slideshow-container">
   
       <div class="slide">
-        <img src="img/producto 1.png">
+        <img src="producto 1.png">
       </div>
   
       <div class="slide">
-        <img src="img/producto 3.png">
+        <img src="producto 3.png">
       </div>
   
       <div class="slide">
-        <img src="img/producto 5.png">
+        <img src="producto 5.png">
       </div>
 
       <div class="slide">
-        <img src="img/producto 7.png">
+        <img src="producto 7.png">
       </div>
 
       <div class="slide">
-        <img src="img/producto 9.png">
+        <img src="producto 9.png">
       </div>
 
       <div class="slide">
-        <img src="img/producto 8.png">
+        <img src="producto 8.png">
       </div>
 
       <div class="slide">
-        <img src="img/producto 6.png">
+        <img src="producto 6.png">
       </div>
 
       <div class="slide">
-        <img src="img/producto 4.png">
+        <img src="producto 4.png">
       </div>
 
       <div class="slide">
-        <img src="img/producto 2.png">
+        <img src="producto 2.png">
       </div>
   
     </div>
