@@ -56,7 +56,7 @@ header {
 
 nav {
     background-color: #333333;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 18px;
     text-align: center;
@@ -66,13 +66,11 @@ nav a {
     display: inline-block;
     color: white;
     padding: 14px 16px;
-    text-decoration: none;
-
-    padding: 14px 35px;
-
-    margin-right: 30px;
+    width: 25%;
+    /* Nuevo */
+    box-sizing: border-box;
+    /* Nuevo */
 }
-
 
 nav a:hover {
     background-color: white;
@@ -177,4 +175,13 @@ header {
     position: relative;
     z-index: 1;
 }
- 
+
+@media (min-width: 600px) {
+    /* main {
+        flex-direction: row;
+    } */
+
+    nav a {
+        width: auto;
+    }
+}
