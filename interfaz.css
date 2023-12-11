@@ -123,12 +123,21 @@ main {
 }
 
 .slideshow-container {
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
+    position: relative;
+}
+
+.slide {
+    height: 80vh;
+    width: 80vw;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .slide img {
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 
