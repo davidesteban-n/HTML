@@ -50,9 +50,6 @@ article {
 }
 
 @media (min-width: 600px) {
-    main {
-        flex-direction: row;
-    }
 
     nav a {
         width: auto;
